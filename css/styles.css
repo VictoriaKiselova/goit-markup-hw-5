@@ -702,7 +702,6 @@ img {
 }
 
 .review-form-checkbox-policy-container {
-  display: flex;
   width: 360px;
   align-items: center;
   gap: 8px;
@@ -741,7 +740,7 @@ img {
   stroke: var(--OCEAN, #404bbf);
   flex-shrink: 0;
 }
-.review-form-checkbox:checked + .review-form-checkbox-user-privace {
+.review-form-checkbox:checked .review-form-checkbox-user-privace {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -749,11 +748,11 @@ img {
 .review-form-policy {
   position: relative;
   width: 338px;
+  height: 16px;
   color: var(--LIGHT-SLATE, #8e8f99);
   font-size: 12px;
   font-weight: 400;
   line-height: 1.6;
-  line-height: 1.17;
   letter-spacing: 0.04em;
 }
 .review-form-policy-link {
@@ -778,11 +777,12 @@ img {
   border: none;
   background-color: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  align-items: center;
-  justify-content: center;
   color: #ffffff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .review-form-button-item:hover {
   background-color: #404bbf;
