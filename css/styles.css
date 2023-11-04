@@ -539,11 +539,10 @@ img {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
   border: none;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   color: var(--WHITE, #fff);
   text-align: center;
@@ -554,6 +553,8 @@ img {
   cursor: pointer;
 }
 .page-footer-icon {
+  margin-left: 16px;
+  fill: #ffffff;
 }
 /* ====BACKDROP=========*/
 .backdrop {
