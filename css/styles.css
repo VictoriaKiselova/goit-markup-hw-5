@@ -733,12 +733,11 @@ img {
 }
 .review-form-icon {
   display: inline-flex;
-  fill: var(--OCEAN, #404bbf);
-  stroke-width: 1px;
-  stroke: var(--OCEAN, #404bbf);
-  flex-shrink: 0;
+  fill: var(--CLOUD, #f4f4fd);
 }
-.review-form-checkbox:checked + .review-form-checkbox-user-privace {
+.review-form-checkbox:checked
+  + .review-form-policy
+  > .review-form-checkbox-user-privace {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
