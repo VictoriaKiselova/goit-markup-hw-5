@@ -733,8 +733,6 @@ img {
 }
 .review-form-icon {
   display: inline-flex;
-  width: 16px;
-  height: 16px;
   fill: var(--OCEAN, #404bbf);
   stroke-width: 1px;
   stroke: var(--OCEAN, #404bbf);
